@@ -1,0 +1,447 @@
+<RegionsList>
+  <Regions>
+    <reg_id>95</reg_id>
+    <regname>Алтайский край</regname>
+    <OKATO>1</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>81</reg_id>
+    <regname>Амурская область</regname>
+    <OKATO>10</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>12</reg_id>
+    <regname>Архангельская область</regname>
+    <OKATO>11</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>64</reg_id>
+    <regname>Астраханская область</regname>
+    <OKATO>12</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>30</reg_id>
+    <regname>Белгородская область</regname>
+    <OKATO>14</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>46</reg_id>
+    <regname>Брянская область</regname>
+    <OKATO>15</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>5</reg_id>
+    <regname>Владимирская область</regname>
+    <OKATO>17</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>6</reg_id>
+    <regname>Волгоградская область</regname>
+    <OKATO>18</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>20</reg_id>
+    <regname>Вологодская область</regname>
+    <OKATO>19</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>16</reg_id>
+    <regname>Воронежская область</regname>
+    <OKATO>20</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>96</reg_id>
+    <regname>Всего по России</regname>
+    <OKATO>0</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>23</reg_id>
+    <regname>г.Москва</regname>
+    <OKATO>45</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>7</reg_id>
+    <regname>г.Санкт-Петербург</regname>
+    <OKATO>40</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>45</reg_id>
+    <regname>Дальневосточный округ</regname>
+    <OKATO>108</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>97</reg_id>
+    <regname>Еврейская автономная область</regname>
+    <OKATO>99</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>88</reg_id>
+    <regname>Забайкальский край</regname>
+    <OKATO>76</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>28</reg_id>
+    <regname>Ивановская область</regname>
+    <OKATO>24</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>92</reg_id>
+    <regname>Иркутская область</regname>
+    <OKATO>25</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>60</reg_id>
+    <regname>Кабардино-Балкарская Респ.</regname>
+    <OKATO>83</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>17</reg_id>
+    <regname>Калининградская область</regname>
+    <OKATO>27</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>9</reg_id>
+    <regname>Калужская область</regname>
+    <OKATO>29</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>80</reg_id>
+    <regname>Камчатский край</regname>
+    <OKATO>30</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>65</reg_id>
+    <regname>Карачаево-Черкесская Респ.</regname>
+    <OKATO>91</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>90</reg_id>
+    <regname>Кемеровская область</regname>
+    <OKATO>32</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>26</reg_id>
+    <regname>Кировская область</regname>
+    <OKATO>33</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>18</reg_id>
+    <regname>Костромская область</regname>
+    <OKATO>34</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>66</reg_id>
+    <regname>Краснодарский край</regname>
+    <OKATO>3</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>13</reg_id>
+    <regname>Красноярский край</regname>
+    <OKATO>4</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>8</reg_id>
+    <regname>Курганская область</regname>
+    <OKATO>37</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>47</reg_id>
+    <regname>Курская область</regname>
+    <OKATO>38</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>53</reg_id>
+    <regname>Ленинградская область</regname>
+    <OKATO>41</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>48</reg_id>
+    <regname>Липецкая область</regname>
+    <OKATO>42</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>78</reg_id>
+    <regname>Магаданская область</regname>
+    <OKATO>44</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>31</reg_id>
+    <regname>Московская область</regname>
+    <OKATO>46</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>54</reg_id>
+    <regname>Мурманская область</regname>
+    <OKATO>47</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>22</reg_id>
+    <regname>Нижегородская область</regname>
+    <OKATO>22</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>55</reg_id>
+    <regname>Новгородская область</regname>
+    <OKATO>49</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>14</reg_id>
+    <regname>Новосибирская область</regname>
+    <OKATO>50</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>4</reg_id>
+    <regname>Омская область</regname>
+    <OKATO>52</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>69</reg_id>
+    <regname>Оренбургская область</regname>
+    <OKATO>53</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>49</reg_id>
+    <regname>Орловская область</regname>
+    <OKATO>54</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>70</reg_id>
+    <regname>Пензенская область</regname>
+    <OKATO>56</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>71</reg_id>
+    <regname>Пермский край</regname>
+    <OKATO>57</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>42</reg_id>
+    <regname>Приволжский округ</regname>
+    <OKATO>105</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>82</reg_id>
+    <regname>Приморский край</regname>
+    <OKATO>5</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>15</reg_id>
+    <regname>Псковская область</regname>
+    <OKATO>58</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>19</reg_id>
+    <regname>Респ. Башкортостан</regname>
+    <OKATO>80</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>27</reg_id>
+    <regname>Респ. Карелия</regname>
+    <OKATO>86</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>74</reg_id>
+    <regname>Респ. Саха (Якутия)</regname>
+    <OKATO>98</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>62</reg_id>
+    <regname>Респ. Северная Осетия-Алания</regname>
+    <OKATO>90</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>59</reg_id>
+    <regname>Республика Адыгея (Адыгея)</regname>
+    <OKATO>79</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>85</reg_id>
+    <regname>Республика Алтай</regname>
+    <OKATO>84</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>86</reg_id>
+    <regname>Республика Бурятия</regname>
+    <OKATO>81</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>32</reg_id>
+    <regname>Республика Дагестан</regname>
+    <OKATO>82</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>58</reg_id>
+    <regname>Республика Ингушетия</regname>
+    <OKATO>26</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>61</reg_id>
+    <regname>Республика Калмыкия</regname>
+    <OKATO>85</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>52</reg_id>
+    <regname>Республика Коми</regname>
+    <OKATO>87</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>24</reg_id>
+    <regname>Республика Марий-Эл</regname>
+    <OKATO>88</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>67</reg_id>
+    <regname>Республика Мордовия</regname>
+    <OKATO>89</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>38</reg_id>
+    <regname>Республика Татарстан</regname>
+    <OKATO>92</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>84</reg_id>
+    <regname>Республика Тыва</regname>
+    <OKATO>93</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>83</reg_id>
+    <regname>Республика Хакасия</regname>
+    <OKATO>95</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>10</reg_id>
+    <regname>Ростовская область</regname>
+    <OKATO>60</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>1</reg_id>
+    <regname>Рязанская область</regname>
+    <OKATO>61</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>11</reg_id>
+    <regname>Самарская область</regname>
+    <OKATO>36</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>36</reg_id>
+    <regname>Саратовская область</regname>
+    <OKATO>63</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>77</reg_id>
+    <regname>Сахалинская область</regname>
+    <OKATO>64</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>2</reg_id>
+    <regname>Свердловская область</regname>
+    <OKATO>65</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>40</reg_id>
+    <regname>Северо-Западный округ</regname>
+    <OKATO>102</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>99</reg_id>
+    <regname>Северо-Кавказский округ</regname>
+    <OKATO>104</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>44</reg_id>
+    <regname>Сибирский округ</regname>
+    <OKATO>107</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>50</reg_id>
+    <regname>Смоленская область</regname>
+    <OKATO>66</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>33</reg_id>
+    <regname>Ставропольский край</regname>
+    <OKATO>7</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>51</reg_id>
+    <regname>Тамбовская область</regname>
+    <OKATO>68</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>37</reg_id>
+    <regname>Тверская область</regname>
+    <OKATO>28</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>89</reg_id>
+    <regname>Томская область</regname>
+    <OKATO>69</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>35</reg_id>
+    <regname>Тульская область</regname>
+    <OKATO>70</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>29</reg_id>
+    <regname>Тюменская область</regname>
+    <OKATO>71</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>34</reg_id>
+    <regname>Удмуртская Республика</regname>
+    <OKATO>94</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>72</reg_id>
+    <regname>Ульяновская область</regname>
+    <OKATO>73</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>43</reg_id>
+    <regname>Уральский округ</regname>
+    <OKATO>106</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>3</reg_id>
+    <regname>Хабаровский край</regname>
+    <OKATO>8</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>39</reg_id>
+    <regname>Центральный округ</regname>
+    <OKATO>101</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>21</reg_id>
+    <regname>Челябинская область</regname>
+    <OKATO>75</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>63</reg_id>
+    <regname>Чеченская Республика</regname>
+    <OKATO>96</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>68</reg_id>
+    <regname>Чувашская Республика</regname>
+    <OKATO>97</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>98</reg_id>
+    <regname>Чукотский автономный округ</regname>
+    <OKATO>77</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>41</reg_id>
+    <regname>Южный округ</regname>
+    <OKATO>103</OKATO>
+  </Regions>
+  <Regions>
+    <reg_id>25</reg_id>
+    <regname>Ярославская область</regname>
+    <OKATO>78</OKATO>
+  </Regions>
+</RegionsList>
