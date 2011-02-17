@@ -4,5 +4,7 @@ python cbrconvert.py regions
 python cbrconvert.py tables
 call scripts/get_indicators.bat
 python cbrconvert.py indicators
-call scripts/get_values.bat
+python cbrextract.py
+python cbconvert.py values
+python cbconvert.py mergevalues
 

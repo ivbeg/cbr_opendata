@@ -67,10 +67,12 @@ def convert_values():
 	filename = 'refined/indicators.csv'
 	for o in csv.DictReader(open(filename, 'r'), delimiter='\t', quoting=csv.QUOTE_NONE):
 		inds.append(o)
-	f = open('refined/values.csv', 'w')
-	f.write('\t'.join(['reg_date', 'reg_id', 'ind_id', 'val']) + '\n')
+#	f = open('refined/values.csv', 'w')
+#	f.write('\t'.join(['reg_date', 'reg_id', 'ind_id', 'val']) + '\n')
 	for r in regs:
 		rkey = r['reg_id']
+		if not os.path.exists('refined/values/%s/' %(rkey)):
+			os.makedirs('refined/values/%s' %(rkey))
 		for  t in tables:
 			tkey = t['ind_table']
 			ires = []
@@ -82,6 +84,12 @@ def convert_values():
 			f1 = open(filepath, 'r')
 			data = f1.read()
 			f1.close()
+			filepath = 'refined/values/%s/%s$%s.csv' %(rkey, rkey, '_'.join(ires))
+			if os.path.exists(filepath): 
+				print 'Skipped', filepath
+				continue
+			f = open(filepath, 'w')
+			f.write('\t'.join(['reg_date', 'reg_id', 'ind_id', 'val']) + '\n')
 			soup = BeautifulStoneSoup(data)
 			tp = Path('//reg_val')
 			objs = tp.apply(soup)
@@ -90,6 +98,42 @@ def convert_values():
 				vals = []
 				for k in keys:
 					vals.append(str(o.find(k).string))
+				f.write('\t'.join(vals) + '\n')
+			print tkey, filepath
+
+			f.close()
+
+
+def merge_values():
+	filename = 'refined/tables.csv'
+	csvr = csv.DictReader(open(filename, 'r'), delimiter='\t', quoting=csv.QUOTE_NONE)
+	filename = 'refined/regions.csv'
+	regs = csv.DictReader(open(filename, 'r'), delimiter='\t', quoting=csv.QUOTE_NONE)
+	tables = []
+	for o in csvr:
+		tables.append(o)
+	inds = []
+	filename = 'refined/indicators.csv'
+	for o in csv.DictReader(open(filename, 'r'), delimiter='\t', quoting=csv.QUOTE_NONE):
+		inds.append(o)
+	keys = ['reg_date', 'reg_id', 'ind_id', 'val']
+	f = open('refined/values.csv', 'w')
+	f.write('\t'.join(keys) + '\n')
+	for r in regs:
+		rkey = r['reg_id']
+		for  t in tables:
+			tkey = t['ind_table']
+			ires = []
+			for i in inds:
+				if i['ind_table'] == tkey:
+					ires.append(i['ind_id'])
+			filepath = 'refined/values/%s/%s$%s.csv' %(rkey, rkey, '_'.join(ires))
+			if not os.path.exists(filepath): continue
+			vres = csv.DictReader(open(filepath, 'r'), delimiter='\t', quoting=csv.QUOTE_NONE)
+			for v in vres:
+				vals = []
+				for k in keys:
+					vals.append(v[k])
 				f.write('\t'.join(vals) + '\n')
 			print tkey, filepath
 
@@ -103,6 +147,7 @@ Usage:
 	cbrconvert.py tables - converts tables XML
 	cbrconvert.py indicators - converts indicators
 	cbrconvert.py values - converts values of indicators
+	cbrconvert.py mergevalues - merges all values into one CSV file
 
 """
 
@@ -118,6 +163,8 @@ def main():
 			convert_inds()
 		elif key == 'values':
 			convert_values()
+		elif key == 'mergevalues':
+			merge_values()
 		else:
 			usage()
 	else:

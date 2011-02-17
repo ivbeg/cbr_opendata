@@ -42,6 +42,8 @@ def get_values():
 				if i['ind_table'] == tkey:
 					ires.append(i['ind_id'])
 			efilename = 'raw/values/%s/%s$%s.xml' %(rkey, rkey, '_'.join(ires))
+			if not os.path.exists('raw/values/%s/' %(rkey)):
+				os.makedirs('raw/values/%s' %(rkey))
 			if not os.path.exists(efilename):			
 				s = 'scripts\\cbrexporter.exe values %s %s raw/values/%s/%s$%s.xml' %(rkey, ','.join(ires), rkey, rkey, '_'.join(ires))
 				print 'Extracting', efilename
