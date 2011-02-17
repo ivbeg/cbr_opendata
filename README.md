@@ -49,6 +49,10 @@ Website: http://www.opengovdata.ru
 7. Преобразовать значения индикаторов в CSV формат 
 - python cbrconvert.py values
 
+7. Объединить все значения индикаторов в один CSV файл 
+- python cbrconvert.py mergevalues
+
+
 ##LIMITATIONS
 В виду ограничений накладываемых API Центробанка выгрузка данных с их 
 сайта полноценно работает только если делать это используя Microsoft.NET
