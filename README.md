@@ -64,6 +64,9 @@ Website: http://www.opengovdata.ru
 и работает в Microsoft.NET
  
 
+##LICENSE
+Этот код и данные доступны под условиями Creative Commons Unported 3.0 license http://creativecommons.org/licenses/by/3.0/
+This code and data available under Creative Commons Unported 3.0 license http://creativecommons.org/licenses/by/3.0/
 
 
 
